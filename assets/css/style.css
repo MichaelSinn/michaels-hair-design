@@ -17,6 +17,14 @@ footer{
 
 nav{
     width: 300px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5em;
 }
 
 a{
@@ -41,7 +49,8 @@ h1, h2, h3, h4{
 
 h2{
     font-size: 2.5em;
-    margin-bottom: 1em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
 }
 
 h3{
@@ -63,6 +72,7 @@ em{
 
 .nav-list{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -88,12 +98,13 @@ em{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4em;
 }
 
 .prices{
     display: flex;
     flex-direction: column;
-    margin: 30px auto;
+    margin-bottom: 4em;
     align-items: center;
 }
 
@@ -104,4 +115,14 @@ em{
 .prices-card-container{
     display: flex;
     flex-direction: row;
+}
+
+.subtext{
+    font-size: 0.75em;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
