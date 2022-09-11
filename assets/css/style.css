@@ -1,0 +1,107 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+footer{
+    margin-top: 2em;
+    background-color: #001a6e;
+    color: white;
+}
+
+nav{
+    width: 300px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4{
+    color: #001a6e;
+}
+
+h2{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+h3{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+td{
+    padding: 2px 5px;
+}
+
+em{
+    font-weight: bold;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list-item{
+    display: inline-block;
+}
+
+.logo{
+    max-width: 208px;
+    margin-bottom: 1em;
+}
+
+.hero{
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.prices-card{
+    margin: 15px 30px;
+}
+
+.prices-card-container{
+    display: flex;
+    flex-direction: row;
+}
